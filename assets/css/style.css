@@ -361,6 +361,10 @@ hr {
   }
 }
 
+section:last-of-type {
+  flex-direction: column;
+}
+
 @media screen and (min-width: 768px) {
   main {
     padding: 0 8em;
@@ -450,6 +454,10 @@ hr {
     font-size: 1em;
     font-weight: bold;
     margin: 7px 0;
+  }
+
+  section:last-of-type {
+    flex-direction: row;
   }
 
   .paragrafi p {
