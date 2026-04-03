@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", animazione)
 
 window.addEventListener("scroll", function () {
   const header = document.querySelector("header")
-  const nav = document.querySelector("nav")
+  const nav = document.querySelector("body #navbar")
   const bottone = document.getElementById("cambia-colore")
 
   const altezzaHeader = header.offsetHeight
