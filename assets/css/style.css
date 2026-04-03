@@ -325,9 +325,9 @@ hr {
     font-size: 0.8em;
   }
 
-  header li:nth-of-type(1),
-  header li:nth-of-type(2),
-  header li:nth-of-type(3) {
+  #navbar li:nth-of-type(1),
+  #navbar li:nth-of-type(2),
+  #navbar li:nth-of-type(3) {
     display: inherit;
   }
 
